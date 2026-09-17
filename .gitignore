@@ -1,0 +1,82 @@
+# ====================================================================
+# Unrelated Emulator / Cache Folders
+# ====================================================================
+# TxGameDownload is Tencent GameLoop emulator cache (~3.3 GB)
+TxGameDownload/
+
+# ====================================================================
+# Unity Crash Dumps, Logs & Temporary Files
+# ====================================================================
+CrashReports/
+*.log
+*.dmp
+*.stackdump
+
+# ====================================================================
+# Operating System & IDE Artifacts
+# ====================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Visual Studio / VS Code / JetBrains Rider
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# ====================================================================
+# Unity Project Standard Ignores
+# (Applied if Unity project source files are added to this repository)
+# ====================================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/ExportedObj/
+.consulo/
+
+# Unity generated packages
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+
+# ====================================================================
+# Standalone Game Build Binaries Note:
+# ====================================================================
+# By default, standalone build files (flappybird.exe, flappybird_Data/, 
+# UnityPlayer.dll, MonoBleedingEdge/) are NOT ignored so you can track
+# this build if intended. 
+# 
+# If this repository should only track SOURCE code and NOT the ~98MB 
+# compiled game build, uncomment the lines below:
+#
+# *.exe
+# *.dll
+# flappybird_Data/
+# MonoBleedingEdge/
+# D3D12/
+
